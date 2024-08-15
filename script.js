@@ -3,10 +3,13 @@ function getComputerChoice(){
 return Math.floor(Math.random()*3);
 }
 
-const a=getComputerChoice();
-const b=getComputerChoice();
-const c=getComputerChoice();
+function getHumanChoice(){
+return prompt("What will you pick Rock,Paper or Scissors??")
+}
 
-console.log(a);
-console.log(b);
-console.log(c);
+const a=0;
+const b=1;
+const c=2;
+
+console.log(getHumanChoice());
+
